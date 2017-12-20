@@ -40,4 +40,11 @@ hardware（应为是不同厂家提供的demo）和 UI通讯是没有用到上�
  
  
 = =============================
-项目使用的retrofit 1.9
+Server3 这个module：它的应用app是testLib module
+
+项目使用的retrofit 2.1.0，rxjava 2.2.0, okhttp 3.8.1.
+
+server3的框架来自GanHuoIO-master.rar  . 
+ 
+通过反射机制来的到每个service （如SmsService，GankService）的baseUrl。
+ 
