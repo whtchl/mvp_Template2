@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relayout_one"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="1"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_four"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="4" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="4"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_seven"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="7" >
+
+            <TextView
+                android:id="@+id/tv_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="7"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="-1" >
+
+            <TextView
+                android:id="@+id/tv_two_zero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="．"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_font" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/re_two"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_five"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="5" >
+
+            <TextView
+                android:id="@+id/tv_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="5"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_eight"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="8" >
+
+            <TextView
+                android:id="@+id/tv_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="8"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_one_zero"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="0" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_font" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/re_three"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="3" >
+
+            <TextView
+                android:id="@+id/tv_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="3"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_sex"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="6" >
+
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="6"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <RelativeLayout
+            android:id="@+id/re_nine"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:onClick="numClick"
+            android:tag="9" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="9"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/key_number_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <LinearLayout
+            android:id="@+id/ll_aliay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="AliPayClick"
+            android:background="@drawable/btn_keyboard_key"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_item_aliay"
+                    android:layout_width="@dimen/d25"
+                    android:layout_height="@dimen/d25"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/aliay_pay_btn" />
+
+                <TextView
+                    android:id="@+id/tv_aliay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_item_aliay"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x4"
+                    android:text="@string/alipay_card_payment"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/text_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_font" />
+
+    <LinearLayout
+        android:id="@+id/linear_choose_type"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_cash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="cashPayClick"
+            android:tag="11" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_item_cash"
+                    android:layout_width="@dimen/d25"
+                    android:layout_height="@dimen/d25"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/cash_pay_btn" />
+
+                <TextView
+                    android:id="@+id/tv_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_item_cash"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x4"
+                    android:text="@string/cash_payment"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/text_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line_cash"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <LinearLayout
+            android:id="@+id/btn_coupon_pay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/btn_coupon_pay_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <!--2017040101 tchl begin 会员卡收费界面，优惠劵数量显示  -->
+                <ImageView
+                    android:id="@+id/iv_item_coupon"
+                    android:layout_width="@dimen/d25"
+                    android:layout_height="@dimen/d25"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/coupon_pay_icon" />
+                <!-- 2017040101 tchl end 会员卡收费界面，优惠劵数量显示 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_item_coupon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x4"
+                    android:text="@string/coupon_payment"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/text_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <LinearLayout
+            android:id="@+id/ll_bank"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_key"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="BankCardPayClick"
+            android:tag="12" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_item_bank"
+                    android:layout_width="@dimen/d25"
+                    android:layout_height="@dimen/d25"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/card_pay_btn" />
+
+                <TextView
+                    android:id="@+id/tv_bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_item_bank"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x4"
+                    android:text="@string/bank_card_payment"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/text_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line_code"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_font" />
+
+        <LinearLayout
+            android:id="@+id/ll_wchant"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="WeChatPayClick"
+            android:background="@drawable/btn_keyboard_key"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_item_wchant"
+                    android:layout_width="@dimen/d25"
+                    android:layout_height="@dimen/d25"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wx_pay_btn" />
+
+                <TextView
+                    android:id="@+id/tv_wchant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_item_wchant"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x4"
+                    android:text="@string/wchant_card_payment"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/text_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 关于我们 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/font_white_color" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/material_component_lists_padding_above_list" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="商家名称"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/merchant_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="POS机名称"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/pos_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="商户号"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/merchant_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="终端号"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/terminal_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="SN号"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/sn_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="地区"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/area_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                android:background="@color/gray_font" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/material_component_lists_single_line_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/material_component_lists_icon_left_padding"
+                    android:text="版本"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_caption" />
+
+                <TextView
+                    android:id="@+id/system_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/material_component_lists_icon_left_padding"
+                    android:textColor="@color/minor_text"
+                    android:textSize="@dimen/material_typography_caption" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

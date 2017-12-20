@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 餐饮保险 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_corners"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10" >
+
+        <RelativeLayout
+            android:id="@+id/close_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/x10" >
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/detail_x" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/x10"
+            android:src="@drawable/foodbd" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x5"
+        android:layout_marginTop="@dimen/x5"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/x18"
+        android:paddingRight="@dimen/x18" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/food_info_customer1"
+            android:textColor="@color/text_main_color"
+            android:textSize="@dimen/x15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/x5"
+            android:text="@string/food_info_customer2"
+            android:textColor="@color/text_main_color"
+            android:textSize="@dimen/x15" />
+        <!--android:text="@string/food_info_customer3"-->
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/x5"
+
+            android:textColor="@color/text_main_color"
+            android:textSize="@dimen/x15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/x5"
+            android:gravity="right"
+            android:text="@string/food_info_customer4"
+            android:textColor="@color/text_main_color"
+            android:textSize="@dimen/x15" />
+
+        <EditText
+            android:id="@+id/input_food_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/input_phone"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:paddingBottom="15dp"
+            android:numeric="integer"
+            android:paddingTop="@dimen/x15" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/main_gray" />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/input_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/input_name"
+            android:maxLines="1"
+            android:paddingBottom="5dp"
+            android:paddingTop="@dimen/x15" />
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/main_gray" />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/input_money"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/input_money"
+            android:maxLines="1"
+            android:numeric="decimal"
+            android:paddingBottom="5dp"
+            android:paddingTop="@dimen/x15" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/main_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x30"
+        android:layout_marginTop="@dimen/x20"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x18"
+        android:paddingRight="@dimen/x18" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/button_main_style"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/red_cornerbutton_selector"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/x1" />
+
+        <Button
+            android:id="@+id/submit_info"
+            style="@style/button_main_style"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/blue_cornerbutton_selector"
+            android:text="@string/sure"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

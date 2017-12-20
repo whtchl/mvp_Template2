@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--区别于activity_mains_layout.xml,不需要“数据统计”，其他的控件放大占据整个屏幕-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white_color"
+    android:id="@+id/lifengpay_main_view"
+    android:orientation="vertical" >
+
+    <!--<include layout="@layout/include_toolbar"/>-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@color/gray_white_color" />
+
+    <!-- 主内容 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_bx"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_keyboard_key_blue"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="Bx"
+
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/bx"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_subheading" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_cp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_keyboard_key_pink"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="Cp"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/cp"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_subheading" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:id="@+id/ll_dealflow"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                android:background="@drawable/btn_keyboard_key_yellow"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="DealFlow"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/ma_img6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/jyls"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_subheading" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:id="@+id/ll_setting"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_keyboard_key_green"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="setting"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/icon_setup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/setting"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/material_typography_subheading" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/fg_bgcolor" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_white_color"
+        android:visibility="visible" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/fg_bgcolor" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginTop="8dp"
+        android:background="@color/fg_bgcolor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/blue_button_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="IvBtnCashier"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/m_img5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sjsy"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

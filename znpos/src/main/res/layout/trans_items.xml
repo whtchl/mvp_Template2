@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/x10" >
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/trans_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkgray"
+            tools:text="7777"
+            android:textSize="@dimen/text_size_15" />
+
+        <TextView
+            android:id="@+id/local_trans_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkgray"
+            tools:text="6666"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_trans_type"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_toRightOf="@+id/ll_time" />
+
+    <LinearLayout
+        android:id="@+id/ll_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_toRightOf="@+id/iv_trans_type"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+
+
+            <TextView
+                android:id="@+id/tv_remark_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                tools:text="55555"
+                android:textSize="@dimen/text_size_20" />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tv_remark_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                tools:text="55555"
+                android:textSize="@dimen/text_size_18" />
+
+            <!--<TextView
+                android:id="@+id/local_trans_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                tools:text="55555"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:id="@+id/local_trans_type_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_13"
+                tools:text="4444"
+                android:visibility="visible" />-->
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/trans_agent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size_13"
+            tools:text="3333"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/trans_agent_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size_13"
+            tools:text="222"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/local_trans_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            tools:text="1111"
+            android:textSize="@dimen/text_size_13" />-->
+    </LinearLayout>
+
+  <!--  <TextView
+        android:id="@+id/local_trans_revocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/trans_revoke"
+        android:textColor="@color/money_red"
+        android:textSize="@dimen/text_size_13"
+        android:visibility="visible" />-->
+
+</RelativeLayout>

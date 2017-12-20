@@ -1,0 +1,1 @@
+include ':mvpbeam', ':znpos', ':common', ':model', ':sqlite', ':hardware', ':server', ':config', ':szx2', ':server3', ':utils', ':testlib', ':PhotoPicker'

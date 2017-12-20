@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/blue_remind_press</item>
+        <item name="colorPrimaryDark">@color/blue_remind_press</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange</item>
+        <item name="colorPrimary">@color/black_deep</item>
+    </style>
+
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground"
+            format="reference"/>
+    </declare-styleable>
+    <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+</resources>

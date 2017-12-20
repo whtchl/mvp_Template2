@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">hardware</string>
+    <string name="f300_error">设备被非法攻击，不能使用</string>
+</resources>

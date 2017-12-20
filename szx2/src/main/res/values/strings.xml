@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">食责险</string>
+    <string name="food_info_customer1">尊敬的顾客：</string>
+    <string name="food_info_customer2">您好！请输入您的手机号码</string>
+    <!-- <string name="food_info_customer3">即可获得一份宁波市食品安全责任保险运营中心【免费】的餐饮保险</string>-->
+
+    <string name="food_info_customer3"><Data><![CDATA[
+    即可获得一份 \n <font color="#ff0000"><b>宁波市食品安全责任保险运营中心</b></font>【免费】的餐饮保险
+     ]]></Data></string>
+    <string name="food_info_customer4">谢谢！！</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_money">请输入金额:</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="phone_error">请输入正确的手机号码</string>
+    <string name="waiting">请稍后...</string>
+    <string name="str_setting">设置</string>
+    <string name="str_launcher">桌面</string>
+    <string name="third">POS机支付公司标识:</string>
+    <string name="mchcode">支付公司商户号:</string>
+    <string name="version">当前版本号:</string>
+    <string name="remind1">POS机支付公司标识或支付公司商户号为空</string>
+    <string name="save_success">保存成功！</string>
+    <string name="jianjie">简介</string>
+    <string name="content">
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;宁波市食品安全责任保险运营中心由中国人寿财产保险股份有限公司宁波市分公司、
+        中国人民财产保险股份有限公司宁波市分公司、中国太平洋财产保险股份有限公司宁波分公司、
+        长安责任保险股份有限公司宁波市分公司、中国平安财产保险股份有限公司宁波分公司5家公司组成的共保体成立的。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;运营中心主要负责开发食品安全责任保险产品，促进业务试点推广，
+        配合监管部门开展食品安全巡查、监测、宣传等专业服务，经营各县（市）区人民政府统保的公共性食品安全责任险业务、
+        国家法律法规明确推行的食品安全责任强制性保险业务以及宁波区域范围内政府推动、
+         市场化运作的商业性食品安全责任保险业务的服务工作。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;国寿财险宁波分公司作为共保体的首席承保人，全权代表所有共保人与政府部门协商签订保险合同，负责承担宁波市食品安全责任保险业务的日常工作。
+    </string>
+    <string name="xdjkapp">请安装现代金控App</string>
+
+    <string name="lpcx">理赔查询</string>
+    <string name="ba">&#160;&#160;报&#160;&#160;&#160;&#160;案&#160;&#160;</string>
+
+    <string name="ba_remind">&#160;&#160;&#160;&#160;发现不安全食品和存在安全隐患的食品机构，欢迎及时报案。</string>
+    <string name="spje">索赔金额</string>
+    <string name="cxsj">出险时间</string>
+    <string name="aqms">案情描述</string>
+    <string name="barxm">报案人姓名</string>
+    <string name="barsj">报案人手机</string>
+    <string name="hqyzm">获取验证码</string>
+    <string name="yzm">验证码</string>
+    <string name="baxct">报案现场图</string>
+    <string name="sjpcd">商家赔偿单</string>
+    <string name="sfkyz">双方合影照</string>
+
+    <string name="gettime">获取当前时间日期</string>
+    <string name="pic_baxc">报案现场图</string>
+    <string name="pic_sjpcd">商家赔偿单</string>
+    <string name="pic_sfhyz">双方合影照</string>
+
+    <string name="lp_detail">理赔详情</string>
+    <string name="address">报案地址</string>
+    <string name="report_time">报案时间</string>
+    <string name="informant">报案人</string>
+    <string name="informant_phone">报案人手机</string>
+    <string name="informant_open_id">报案人微信</string>
+    <string name="cause">案情介绍</string>
+    <string name="report_money">索赔金额</string>
+    <string name="happen_time">出险时间</string>
+    <string name="policy_code">理赔单号</string>
+    <string name="paid_money">理赔金额</string>
+    <string name="status">状态</string>
+    <string name="close_time">结案时间</string>
+    <string name="close_money">结案金额</string>
+    <string name="remark">备注</string>
+
+
+    <string name="status1">待初审确认</string>
+    <string name="status3">上级审核中</string>
+    <string name="status5">待财务打款</string>
+    <string name="status7">待核销</string>
+    <string name="status9">已核销</string>
+    <string name="status11">零赔付结案</string>
+
+
+
+
+</resources>
+

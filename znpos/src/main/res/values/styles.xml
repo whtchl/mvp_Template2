@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange</item>
+        <item name="colorPrimary">@color/black_deep</item>
+    </style>
+   <!-- <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorAccent">@color/orange</item>
+        <item name="colorPrimary">@color/black_deep</item>
+    </style>-->
+
+    <style name="test" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- 自定义的下载进度条 -->
+    <style name="StyleProgressBarMini" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">@dimen/x17</item>
+        <item name="android:minHeight">@dimen/x17</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/shape_progressbar_mini</item>
+    </style>
+
+    <!-- 红色的选择器小按钮 -->
+    <style name="button_small">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/blue_cornerbutton_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/font_white_color</item>
+        <item name="android:textSize">@dimen/x15</item>
+    </style>
+
+    <style name="CustomDialogVip" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="MoreTextDialogVip" parent="@style/CustomDialogVip">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="button_minor">
+        <item name="android:layout_width">@dimen/x128</item>
+        <item name="android:layout_height">@dimen/x44</item>
+        <item name="android:background">@drawable/blue_cornerbutton_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/font_white_color</item>
+        <item name="android:textSize">@dimen/x15</item>
+    </style>
+
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground"
+            format="reference"/>
+    </declare-styleable>
+    <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 分割线颜色 -->
+    <color name="gray_line">#E3E4E6</color>
+    
+    <!-- 正文文字颜色 -->
+    <color name="text_main_color">#595757</color>
+    
+    <!-- 次要文字(提示信息)颜色 -->
+    <color name="text_minor_color">#8E8E93</color>
+    
+    <!-- 绿色文字(可用于操作成功等) -->
+    <color name="text_grenn_color">#58AA07</color>
+    <color name="money_red">#FF6703</color>
+    <!-- 浅绿色 -->
+    <color name="green_qs">#66FF66</color>
+    
+    <!-- 错误提示文字颜色 -->
+    <color name="text_error_hint_color">#AA0707</color>
+
+    <!-- 设置成功页面的背景色 wangkeze-->
+    <color name="set_succed_background_color">#F9F9F9</color>
+    
+    <!-- 白色文字 wangkeze-->
+    <color name="text_font_white_color">#FFFFFF</color>
+    
+    <!-- 安全键盘点击时背景颜色 wangkeze-->
+    <color name="text_gray_white_color">#EEEEEE</color>
+    
+    <!-- 顶部导航背景色 wangkeze-->
+    <color name="header_black_color">#2A2928</color>
+    
+    <!-- 顶部导航栏背景色 -->
+    <color name="header_background_color">#F9F5F5</color>
+
+    <color name="font_white_color">#FFFFFF</color>
+    <!-- 黑色字体 -->
+    <color name="black_color">#333333</color>
+    <color name="head_bg">#36A667</color>
+    <!-- 灰色按钮 -->
+    <color name="main_gray">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_color"> #e8e8e8</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 电子签名界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_font_white_color"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/hand_writing_layout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dip" >
+    </FrameLayout>
+
+    <View style="@style/view_under_line_style" />
+
+</LinearLayout>

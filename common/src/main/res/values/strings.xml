@@ -1,0 +1,124 @@
+<resources  xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">common</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common Values -->
+    <string name="common_cofirm">确认</string>
+    <string name="common_sure">确定</string>
+    <string name="common_return">返回</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_hint">提示</string>
+    <string name="network_not_connected">网络未连接，请检查网络设置</string>
+    <string name="common_tishi">温馨提示</string>
+    <string name="system_error">系统错误，请稍后再试</string>
+    <string name="service_error">服务器无响应，请稍后再试</string>
+
+    <!-- 提示信息 -->
+    <string name="progressing_please_waiting">正在处理，请稍候...</string>
+    <string name="systemcheck_please_waiting">系统检测中...</string>
+    <string name="safe_password_keyboard_text">金融安全密码键盘</string>
+
+    <string name="network_false">请确保网络畅通再试</string>
+    <string name="no_data_now">该时间段：暂无数据</string>
+
+    <!-- 打印 -->
+    <string name="scanning">扫描设备…</string>
+    <string name="select_device">选择连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="base_low_power">底座电压过低，请充电！</string>
+
+    <string name="connect">连接</string>
+    <string name="disconnect">断开</string>
+    <string name="print_connect_fail">蓝牙打印设备连接失败</string>
+    <string name="print_connect_success">蓝牙打印设备连接成功</string>
+    <string name="print_disconnect">蓝牙打印设备已断开</string>
+    <string name="print_open_err">打印失败，命令有错！</string>
+    <string name="print_no_start">设备未准备好，请稍等…</string>
+    <string name="print_no_paper">打印失败，蓝牙底座缺纸！</string>
+    <string name="print_over_temp">打印失败，蓝牙底座温度过高！</string>
+    <string name="print_busy">打印失败，蓝牙底座繁忙！</string>
+    <string name="print_send_err">打印失败，发送命令有误！</string>
+    <string name="print_apply_err">打印失败，申请打印命令有误！</string>
+    <string name="print_send_over">打印数据发送完毕！</string>
+    <string name="print_finish">打印完成！</string>
+    <string name="consumption">消费</string>
+
+    <string name="f300_pos_title">F300智能POS系统</string>
+    <string name="s600_pos_title">S600智能POS系统</string>
+    <string name="password">请输入密码</string>
+    <string name="relogin">重新登录</string>
+    <string name="pay_now">付款</string>
+    <!-- 20170607 pos小票改造 tchl begin -->
+    <string name="intelligent_title">现代金控POS签购单</string>
+    <!-- 20170607 pos小票改造 tchl end -->
+    <string name="inana_merchant_title">爱拿拿联盟商签购单</string>
+    <string name="inana_agent_title">爱拿拿代理报单签购单</string>
+    <string name="order_title_info">商品订单</string>
+    <string name="merchant_name_common">商户名称MERCHANT</string>
+    <string name="merchant_copy">商户存根</string>
+    <string name="cardholder_copy">持卡人存根</string>
+    <string name="print_merchant_copy">打印持卡人存根和商户存根(2联)</string>
+    <string name="print_cardholder_copy">打印商户存根(1联)</string>
+    <string name="print_nothingholder_copy">不打印存根(0联)</string>
+    <string name="print_pos_name">POS机名称作为抬头</string>
+    <string name="print_mechant_name">商家名称作为抬头</string>
+    <string name="print_set">打印设置</string>
+    <string name="receipt_again">重打小票(OVERTYPE RECEIPTS)</string>
+    <string name="merchant_no_common">商户编号MERCHANT NO.</string>
+    <string name="terminal_number_common">终端编号</string>
+    <string name="operator_number_print">操作员号</string>
+    <string name="iss_no">发卡行号 ISS NO. </string>
+    <string name="acq_no">收单行号ACQ NO.</string>
+    <string name="trans_type_tag">交易类型TRANS TYPE</string>
+    <string name="trace_no">流水号TRACE NO.</string>
+    <string name="batch_no">批次号</string>
+    <string name="vouvher">交易号TRACEING NO.</string>
+    <string name="refer_no">参考号REFER NO.</string>
+    <string name="auth_no">授权码AUTH NO.</string>
+    <string name="holders_info">持卡人签名（CARD HOLDER SIGNATURE）：</string>
+    <string name="sure_signature">本人确认以上交易，同意计入本卡账户</string>
+    <string name="sure_sign_english">I ACKNOWLEDGE SATISFACTORY RECEIPT OF \n RELATIVE GOODS/SERVICE</string>
+    <string name="arial">宋体</string>
+    <string name="pay_amount">交易金额AMOUNT</string>
+    <string name="rmb">RMB</string>
+    <string name="print_data">交易时间/日期/DATE/TIME</string>
+    <string name="date">日期/时间</string>
+    <string name="consumption_number">消费单号ORDER NO.</string>
+    <string name="card_or_phone">卡号/手机号CARD/PHONE</string>
+    <string name="remarks">备注REFERENCE</string>
+    <string name="print_cardnumber">银行卡号CARD NO.</string>
+    <string name="trade_success_space">交易成功SUCCESS</string>
+
+    <!-- 签到 -->
+    <string name="sigin_success">签到成功</string>
+    <string name="sigin_again">重新签到</string>
+    <string name="sigin_fail">签到失败</string>
+    <string name="data_error">数据异常</string>
+    <string name="sigin_fail_connection">设备未连接，签到失败</string>
+    <string name="sigin_mainwork">主密钥异常，签到失败</string>
+    <string name="sigining">签到中…</string>
+
+
+    <string name="kind_remind">温馨提示</string>
+    <string name="network_err">当前网络不可用，请检查！</string>
+
+
+    <string name="bank_card_payment">银行卡</string>
+    <string name="vip_name">会员名称</string>
+    <string name="card_number">会员卡号</string>
+    <string name="trans_cancel_total">撤销金额累计</string>
+    <string name="recharge_trans_cash">充值</string>
+    <string name="trans_cancel">撤销交易</string>
+    <string name="consum_trans_cash">消费</string>
+    <string name="name_nothing">匿名</string>
+    <string name="bank_card">银行卡号</string>
+
+    <string name="take_pic">拍照</string>
+
+</resources>

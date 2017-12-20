@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="font_white_color">#FFFFFF</color>
+    <color name="blue_remind">#37a567</color>
+
+    <color name="blue_remind_press">#19914d</color>
+    <color name="gray_white_color">#F0F0F0</color>
+    <color name="darkgray">#A9A9A9</color>
+
+    <color name="refresh_progress_1">#e91e63</color>
+    <color name="refresh_progress_2">#00b0ff</color>
+    <color name="refresh_progress_3">#FF6D00</color>
+</resources>

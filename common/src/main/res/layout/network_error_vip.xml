@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_corners"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/x20"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/material_typography_title" />
+
+        <!-- 叉叉 -->
+
+        <RelativeLayout
+            android:id="@+id/cancels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/x8" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/left_content_width"
+                android:src="@drawable/login_close"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/view_under_line"
+        android:layout_marginTop="@dimen/x10"
+        android:visibility="gone" />
+
+    <!-- 内容 -->
+
+    <TextView
+        android:id="@+id/content_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x20"
+        android:gravity="center"
+        android:textColor="@color/black_color"
+        tools:text="Test"
+        android:textSize="@dimen/material_typography_button" />
+
+    <ImageView
+        android:id="@+id/content_image"
+        android:layout_width="@dimen/x110"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x10"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <!-- 是和否的按钮 -->
+
+    <View
+        style="@style/view_under_line"
+        android:layout_marginTop="@dimen/x30" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x44"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_bt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/left_exit_cornerbutton_selector"
+            android:text="取消"
+            android:textColor="@color/head_bg"
+            android:textSize="@dimen/material_typography_button" />
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="@color/main_gray" />
+
+        <Button
+            android:id="@+id/sure_bt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sure_exit_cornerbutton_selector"
+            android:text="确定"
+            android:textColor="@color/head_bg"
+            android:textSize="@dimen/material_typography_button" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_corners_background"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/cash_payment"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/material_typography_headline" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cash_dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x10"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/x10" >
+
+                <ImageView
+
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="@dimen/x30"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/detail_x" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消费："
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/material_typography_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥"
+                android:textColor="@color/money_red"
+                android:textSize="@dimen/material_typography_title" />
+
+            <TextView
+                android:id="@+id/tv_cash_dialog_rmb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/money_red"
+                android:textSize="@dimen/material_typography_title" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_qfk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="请付款"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/material_typography_title" />
+
+            <TextView
+                android:id="@+id/tv_rmbtb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/tv_qfk"
+                android:gravity="center"
+                android:text="¥"
+                android:textColor="@color/money_red"
+                android:textSize="@dimen/material_typography_title" />
+
+            <EditText
+                android:id="@+id/et_cash"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="@dimen/right_content_width"
+                android:layout_toRightOf="@+id/tv_rmbtb"
+                android:background="@drawable/print_gray_corners"
+                android:gravity="center"
+                android:enabled="false"
+                android:numeric="decimal"
+                android:textColor="@color/money_red"
+                android:textSize="@dimen/material_typography_title" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@color/main_gray" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/x46"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/x8"
+                android:layout_marginLeft="@dimen/x36"
+                android:layout_marginRight="@dimen/x36"
+                android:layout_marginTop="@dimen/x10"
+                android:background="@drawable/blue_cornerbutton_selector"
+                android:text="@string/common_sure"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/material_typography_title"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

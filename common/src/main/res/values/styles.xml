@@ -1,0 +1,115 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+<!--    <style name="AppTheme" parent="AppBaseTheme">
+        &lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;
+    </style>-->
+
+    <!-- -自定义Dialog样式 -->
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- -自定义Dialog样式 -->
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- 自定义的多行内容样式 wangkeze(温馨提示框)-->
+    <style name="MoreTextDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 正文字体样式 -->
+    <style name="text_main_style">
+        <item name="android:textColor">@color/text_main_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 提示信息文字字体样式 -->
+    <style name="text_minor_style">
+        <item name="android:textColor">@color/text_minor_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 主标题字体样式 -->
+    <style name="text_main_title_style">
+        <item name="android:textColor">@color/text_main_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 主编辑框样式 中textview样式 wangkeze -->
+    <style name="edit_textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">13dip</item>
+        <item name="android:textColor">@color/text_main_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 主编辑框样式 中edittext样式 wangkeze -->
+    <style name="edit_edittext_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">13dip</item>
+        <item name="android:layout_marginRight">13dip</item>
+        <item name="android:background">@color/text_font_white_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 获取验证码样式 中button样式 wangkeze -->
+    <style name="button_testcode_style">
+        <item name="android:layout_width">74dip</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:background">@drawable/red_cornerbutton_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_font_white_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 独立分割线样式 wangkeze-->
+    <style name="view_under_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/gray_line</item>
+    </style>
+    
+    <!-- 主按钮样式 wangkeze-->
+    <style name="button_main_style">
+        <item name="android:layout_height">44dip</item>
+        <item name="android:background">@drawable/red_cornerbutton_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_font_white_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <!-- 副按钮样式 wangkeze-->
+    <style name="button_minor_style">
+        <item name="android:layout_width">128dip</item>
+        <item name="android:layout_height">44dip</item>
+        <item name="android:background">@drawable/red_cornerbutton_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_font_white_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="view_under_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/x1</item>
+        <item name="android:background">@color/main_gray</item>
+    </style>
+    
+</resources>

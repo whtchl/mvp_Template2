@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/huise_corners"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/close_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/detail_x" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/succed_background_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/login_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            tools:text="test"
+            android:textSize="@dimen/material_typography_subheading" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_font" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/font_white_color"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:hint="@string/operator_number"
+            android:maxLength="2"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:textColor="@color/main_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/material_typography_subheading" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/gray_font" />
+
+        <EditText
+            android:id="@+id/old_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:hint="旧密码"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/material_typography_subheading" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/gray_font" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:hint="新密码"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/material_typography_subheading" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/gray_font" />
+
+        <EditText
+            android:id="@+id/password_sure"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:hint="确认密码"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/material_typography_subheading" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/gray_font" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/background"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btlogin"
+            style="@style/button_minor" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/gray_font" />
+
+</LinearLayout>

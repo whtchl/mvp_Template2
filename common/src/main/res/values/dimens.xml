@@ -1,0 +1,57 @@
+<resources>
+    
+     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--<dimen name="key_height">50.0dip</dimen>-->
+      <!-- 边框颜色 -->
+    <color name="default_ev_border_color">#000000</color>
+
+    <dimen name="default_ev_border_width">1dp</dimen>
+    <dimen name="default_ev_border_radius">1dp</dimen>
+
+    <!-- 圆点颜色 -->
+    <color name="default_ev_password_color">#CCCCCC</color>
+    <color name="new_ev_password_color">#666666</color>
+    <dimen name="default_ev_password_width">8dp</dimen>
+    <dimen name="default_ev_password_radius">3dp</dimen>
+
+    <integer name="default_ev_password_length">6</integer>
+
+    <dimen name="custom_ev_border_width">5dp</dimen>
+    <dimen name="custom_ev_border_radius">5dp</dimen>
+    <dimen name="custom_ev_password_width">5dp</dimen>
+
+
+
+    <!-- Typography -->
+    <dimen name="material_typography_button">15sp</dimen>
+    <dimen name="material_typography_caption">13sp</dimen>
+    <dimen name="material_typography_body1">15sp</dimen>
+    <dimen name="material_typography_body2">15sp</dimen>
+    <dimen name="material_typography_subheading">17sp</dimen>
+    <dimen name="material_typography_title">21sp</dimen>
+    <dimen name="material_typography_display1">34sp</dimen>
+    <dimen name="material_typography_display2">45sp</dimen>
+    <dimen name="material_typography_display3">56sp</dimen>
+    <dimen name="material_typography_display4">112sp</dimen>
+
+    <dimen name="left_content_width">16dp</dimen>
+
+
+    <dimen name="x1">1dp</dimen>
+
+    <dimen name="x8">8dp</dimen>
+    <dimen name="x10">10dp</dimen>
+    <dimen name="x18">9dp</dimen>
+    <dimen name="x20">20dp</dimen>
+    <dimen name="x30">30dp</dimen>
+    <dimen name="x44">22dp</dimen>
+    <dimen name="x110">55dp</dimen>
+    <dimen name="x19">19dp</dimen>
+    <dimen name="x5">5dp</dimen>
+    <dimen name="x80">80dp</dimen>
+    <dimen name="x23">23dp</dimen>
+    <dimen name="x15">15dp</dimen>
+    <dimen name="x60">45dp</dimen>
+</resources>

@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">荔智付</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pos_name">智能POS系统</string>
+    <string name="parse_error">数据异常，解析出错</string>
+    <string name="vip_no_bind_card">该会员未绑定卡，无法充值</string>
+    <string name="card_overdue_recharge">该卡已过期，无法充值</string>
+    <string name="card_overdue_conu">该卡已过期，无法消费</string>
+    <string name="lifeng_service">服务协议</string>
+
+    <!-- 初始化 -->
+    <string name="jhdress_name">初始化地址</string>
+    <string name="company_name">公司名称</string>
+    <string name="jhdress_nothing">初始化地址不能为空</string>
+    <string name="jhcode_nothing">初始码不能为空</string>
+    <string name="read_xieyi">请先阅读协议</string>
+    <string name="input_jhdress">请输入初始化地址</string>
+    <string name="input_company_name">请输入公司名称</string>
+    <string name="input_jhcode">请输入初始码</string>
+    <string name="jh">初始化</string>
+    <string name="phone_yanzheng">验证码</string>
+    <string name="input_phone_yanzheng">请输入验证码</string>
+    <string name="send_yanzheng">获取验证码</string>
+    <string name="get_yanz_code">请获取验证码</string>
+    <string name="send_code_again">重新获取</string>
+    <string name="instruction">《荔智付POS业务服务协议》</string>
+    <string name="read_over">我已阅读</string>
+    <string name="activation_no">还没有初始码，</string>
+    <string name="get_jhcode">注册获取</string>
+    <string name="jhm_get">获取初始码</string>
+    <string name="jh_ing">初始化中，请稍后...</string>
+    <string name="inputpwdiconhint">金融安全输入键盘</string>
+    <string name="to_settle_accounts">去结算</string>
+    <string name="merchat_info">商家中心</string>
+    <string name="get_register_id">申请试用</string>
+    <string name="f300_device_error">F300设备初始化失败</string>
+    <string name="f400_device_error">F400设备初始化失败</string>
+    <string name="device_bank_nosuport">该设备不支持银行卡交易</string>
+
+    <!-- 签到 -->
+    <string name="system_reset">重新初始化</string>
+    <string name="anonymous_card">匿名卡</string>
+    <string name="connect_sign">请先初始化</string>
+    <string name="sign_data_error">初始化信息保存失败</string>
+    <string name="register_id_error">代理商id保存失败</string>
+    <string name="save_info_now">保存</string>
+    <string name="register_null">初始化对象为null</string>
+    <string name="waiting">请稍后...</string>
+    <string name="write_sn_error">设备号写入失败</string>
+    <string name="initialization_propt">重新初始化，需要进行结算，且会丢失当前终端数据，是否继续？</string>
+    <string name="risk_warning">风险提示</string>
+    <string name="print_set">打印设置</string>
+    <string name="consu_code_promt">微信扫一扫，查看交易详情</string>
+    <string name="recharge_code_promt">微信扫一扫，查看保单详情</string>
+    <!-- 操作员管理 -->
+    <string name="setting">设置</string>
+    <string name="operator_number">操作员</string>
+    <string name="operator_password">密码</string>
+    <string name="input_card_passwordnow">请输入当前卡密码</string>
+    <string name="operator_login">登录</string>
+    <string name="input_operatorId">请输入操作员</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_password_new">请输入新密码</string>
+    <string name="input_password_old">请输入旧密码</string>
+    <string name="input_password_sure">请输入确认密码</string>
+    <string name="input_zero_sixpasd">请设置0位或6位会员密码</string>
+    <string name="input_password_old_error">旧密码不正确</string>
+    <string name="input_password_nosame">两次密码不一致</string>
+    <string name="cannot_updata_pwd">不能修改密码</string>
+    <string name="add_operator">添加</string>
+    <string name="add_operator_ok">添加成功</string>
+    <string name="add_operator_no">添加失败</string>
+    <string name="delete_operator">删除</string>
+    <string name="delete_operator_no">删除失败</string>
+    <string name="delete_operator_ok">删除成功</string>
+    <string name="update_operator">修改</string>
+
+    <string name="refund_card_ok">退卡成功</string>
+    <string name="virtual_card_notlossed">该卡为虚拟卡，不能挂失</string>
+    <string name="lossed_card">请先挂失/锁定该卡</string>
+    <string name="virtual_card_unadd">该卡为虚拟卡，不能补办</string>
+    <string name="update">修改密码</string>
+    <string name="add_password">添加密码</string>
+    <string name="update_sure">确认修改</string>
+    <string name="addcard_sure">确认补卡</string>
+    <string name="card_replacement">补卡</string>
+    <string name="add_sure">确认添加</string>
+    <string name="operator_manager">操作员管理</string>
+    <string name="system_exit">签退</string>
+    <string name="loss_card">挂失</string>
+    <string name="inputcash_new_vipcard">请刷卡或输入新会员卡号</string>
+    <string name="input_new_vipcard">请输入新会员卡号</string>
+    <string name="input_lossed_pwd">请输入已挂失卡的密码</string>
+    <string name="unreplacement">不能补办卡</string>
+    <string name="master_key">写入主秘钥</string>
+
+    <!--签到信息-->
+    <string name="no_pos_name">POS机终端未登记</string>
+    <string name="menus">菜单列表</string>
+    <string name="jzmm">记住密码</string>
+    <string name="jzczy">记住操作员</string>
+    <string name="srczyh">输入操作员号</string>
+    <string name="wrong_operatorid_pwd">错误的用户名或密码</string>
+    <string name="write_sign_file">写入签名文件</string>
+    <string name="wrong_save_sign_file">签到信息保存失败</string>
+    <string name="continues">继续</string>
+    <string name="operator_without">操作员不存在</string>
+    <string name="password_wrong">密码错误</string>
+    <string name="or">或</string>
+    <string name="remind">提示</string>
+    <string name="tcxt">确定要退出系统？</string>
+    <string name="cxqd">请重新签到</string>
+    <string name="cxlsxx">查询流水信息...</string>
+    <string name="jsz">结算中...</string>
+    <string name="jecc1">结算错误【1】</string> <!--撤销的流水笔数大于消费的笔数-->
+    <string name="jecc2">结算错误【2】</string> <!--消费总金额-撤销总金额小于0 ，那么报错-->
+    <string name="prompt">提示</string>
+    <string name="settlement_start">你已经有</string>
+    <string name="settlement_end">天交易流水未结算，请进行结算</string>
+
+    <!--APP更新 -->
+    <string name="update_title">更新提示</string>
+    <string name="update_info">发现新版本，为了正常使用，请更新！</string>
+    <string name="download_success">下载成功</string>
+    <string name="downloading">正在下载中…</string>
+    <string name="download_fail">下载失败</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+
+    <!--导入工作秘钥-->
+    <string name="load_work_key">导入工作秘钥</string>
+    <string name="wrong_load_work_key">导入工作秘钥失败</string>
+    <string name="success_load_work_key">导入工作秘钥成功</string>
+
+    <!--荔智付 主界面-->
+    <string name="jyls">交易流水</string>
+    <string name="xhkdgd">下滑查看更多...</string>
+    <string name="sjsy">商家收银</string>
+    <string name="bx">保险</string>
+    <string name="cp">彩票</string>
+    <string name="not_support">暂不支持该功能</string>
+
+    <!--设置-->
+    <string name="aid_download">AID参数更新</string>
+    <string name="about_us">关于我们</string>
+
+    <!--关于我们-->
+    <string name="version_update">版本更新</string>
+    <string name="question_lists">常见问题</string>
+    <string name="company_info">公司介绍</string>
+    <string name="service_info">服务协议</string><string name="company_phone">客服电话</string>
+    <string name="down_error">下载失败</string>
+    <string name="down_success">下载成功</string>
+    <string name="down_loading">正在下载中…</string>
+
+    <!--操作员管理-->
+    <string name="dy">店员：</string>
+    <string name="update_operator_no">修改密码失败</string>
+    <string name="update_operator_ok">修改密码成功</string>
+    <string name="isdelete_operator">确定要删除店员:</string>
+    <string name="wh">？</string>
+    <string name="ycz">已存在</string>
+
+    <!--收银-->
+    <string name="alipay_card_payment">支付宝</string>
+    <string name="business_recharge">商家充值</string>
+    <string name="cash_payment">现金</string>
+    <string name="coupon_payment">优惠券</string>
+    <string name="bank_card_payment">银行卡</string>
+    <string name="wchant_card_payment">微信</string>
+    <string name="sy">收银</string>
+    <string name="lowest_money">银行卡交易金额不能低于¥2.00</string>
+    <string name="err_read_bankcard">读取银行卡数据失败</string>
+    <string name="service_data_abnormal">服务器返回数据异常</string>
+
+    <!--扫描界面-->
+    <string name="trant_amount">交易金额</string>
+    <string name="alipay_info_msg">请将【支付宝】【二维码/条码】\n放入框内，即可自动收款</string>
+    <string name="wchant_info_msg">请将【微信】【二维码/条码】\n放入框内，即可自动收款</string>
+    <string name="scan_sweep_pay">主扫</string>
+    <string name="scan_swept_pay">被扫</string>
+    <string name="no1pay">1号生活</string>
+
+    <!--电子签名-->
+    <string name="read_already">本人同意：</string>
+    <string name="read_baoxian_info">《单用途商业预付费卡履约保证保险条款》</string>
+    <string name="sign_person_right">根据持卡人协议，本人同意通过本APP支付以上金额</string>
+    <string name="sign_ing">正在处理中</string>
+    <string name="sign_continue">请完成签名</string>
+    <string name="sign_continue_add">请补充签名，再进行打印</string>
+    <string name="sign">签名：</string>
+    <string name="sign_error">签名不合法，请重新签名</string>
+    <string name="trans_app_error">支付成功返回数据异常</string>
+
+    <!--ResultActivity-->
+    <string name="trans_cancel">撤销交易</string>
+    <string name="merchant_name">商户名称</string>
+    <string name="merchant_no">商户号</string>
+    <string name="terminal_number">终端号</string>
+    <string name="pay_type">支付方式</string>
+    <string name="operator">操作员号</string>
+    <string name="cancel_serial_number">撤销交易流水号</string>
+    <string name="before_serial_number">原交易流水号</string>
+    <string name="reference_number">参考号</string>
+    <string name="serial_number">流水号</string>
+    <string name="batch">批次号</string>
+    <string name="create_time">交易时间</string>
+    <string name="voucher">凭证号</string>
+    <string name="str_issuer">发卡行</string>
+    <string name="str_acq">收单行</string>
+    <string name="str_expdate">卡有效期</string>
+    <string name="trans_type">交易类型</string>
+    <string name="card_money_refund">金额</string>
+    <string name="terminal_numbe">终端编号</string>
+    <string name="authorization_code">授权码</string>
+    <string name="cancel_trans_over">【撤销交易】</string>
+    <string name="input_pwds">请输入主管密码：</string>
+    <string name="pos_title">现代金控POS签购单</string>
+    <string name="shcg">商户存根</string>
+    <string name="xf">消费</string>
+    <string name="sdh">收单行</string>
+    <string name="fkh">发卡行</string>
+    <string name="yhk">银行卡</string>
+    <string name="zfb">支付宝</string>
+    <string name="wx">微信</string>
+    <string name="yhkh">银行卡号</string>
+    <string name="shbh">商户编号</string>
+    <string name="zdbh">终端编号</string>
+    <string name="lsbh">流水编号</string>
+    <string name="line">~~~~~~~~~~~~~~~~~~~~~~~~~~</string>
+
+
+    <!--交易流水-->
+    <string name="trans_flowing">交易流水</string>
+    <string name="old_trans_select">历史结算流水查询</string>
+    <string name="old_settlement_select">历史结算查询</string>
+    <string name="settle">结算</string>
+    <string name="consum_trans_revoke">消费(已撤销)</string>
+    <string name="trans_revoke">已撤销</string>
+    <string name="revoke">撤销</string>
+    <string name="cumulative_cash">累计收银</string>
+    <string name="no_transaction_flow">暂无交易流水，无法进行结算</string>
+    <!--撤销交易-->
+    <string name="cxjy">撤销交易</string>
+</resources>
