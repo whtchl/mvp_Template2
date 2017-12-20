@@ -8,6 +8,8 @@ mvpbeam是mvp框架
 
 server是访问网络的。用的是okhttp，retrofit
 
+Server3也是访问网络的：它的应用app是testLib module
+
 hardware是不同硬件设备的
 
 config是配置文件
